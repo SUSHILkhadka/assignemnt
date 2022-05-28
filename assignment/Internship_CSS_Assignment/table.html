@@ -5,8 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color</title>
+    <title>Table</title>
 <link rel="stylesheet" href="style.css">
+
+
+<style>
+    a{
+        text-decoration: none;
+        color: rgb(110, 67, 228);
+    }
+    a:hover{
+        color: white;
+    }
+
+    table {
+        position: relative;
+  border-collapse: collapse;
+  margin-top: 50px;
+  table-layout: auto;
+  width: 100%;
+}
+.first{
+        border-top: 2px solid gray;
+    }
+    tr{
+        /* border: 2px solid red; */
+        height: 60px;
+        width: 100px;
+        border-bottom: 2px solid gray;
+    }
+    td,th{
+        /* border: 2px solid blue; */
+        padding-left: 10px;
+    }
+    .rowcola{
+        font-weight: bold;
+    }
+    .second{
+        background-color: aliceblue;
+    }
+    .footer{
+        float: right;
+        margin-top: 15px;
+    height: 45px;
+    width: 217px;
+    }
+    .prev{
+        border: 2px solid rgb(166, 170, 166);
+        border-radius: 4px;
+        display: inline;
+        padding: 5px 10px 5px 10px;
+    }
+    .prev:hover{
+        background-color: rgb(110, 67, 228);
+    }
+    .num{
+        border: 2px solid rgb(166, 170, 166);
+        border-radius: 4px;
+        display: inline;
+        padding: 5px 8px 5px 8px;
+    }
+    .num:hover{
+        background-color:rgb(110, 67, 228); 
+    }
+</style>
 </head>
 
 <body>
@@ -26,6 +88,49 @@
         <input id="searchbox" placeholder="Search" type="text">
         <button id="searchbutton">Search</button>
     </div>
+
+
+    <div class="content">
+        <p class="mainheading">Tables</p>
+        <hr>
+        <table class="c">
+            <tr class="first">
+                <td class="rowcola">#</td>
+                <td class="rowcola">First </td>
+                <td class="rowcola">Last</td>
+                <td class="rowcola">Handle</td>
+
+            </tr>
+            <tr class="second">
+                <td class="rowcola">1</td>
+                <td class="rowcol">Mark  </td>
+                <td class="rowcol">Otto</td>
+                <td class="rowcol">@mdo</td>
+
+            </tr>
+            <tr class="first">
+                <td class="rowcola">2</td>
+                <td class="rowcol">Jacob </td>
+                <td class="rowcol">Thornton</td>
+                <td class="rowcol">@fat</td>
+
+            </tr>
+            <tr class="second">
+                <td class="rowcola">3</td>
+                <td class="rowcol">Larry </td>
+                <td class="rowcol">the Bird</td>
+                <td class="rowcol">@twitter</td>
+            </tr>
+
+        </table>
+
+    <div class="footer">
+   <a href="#"> <p class="prev">Prev</p></a>
+   <a href="#"> <p class="num">1</p></a>
+   <a href="#"> <p class="num">2</p></a>
+   <a href="#"> <p class="num">3</p></a>
+   <a href="#">         <p class="prev">Next</p></a>
+        </div>
 
 </body>
 

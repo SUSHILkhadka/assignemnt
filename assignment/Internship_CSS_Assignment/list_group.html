@@ -5,8 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color</title>
-<link rel="stylesheet" href="style.css">
+    <title>List Group</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .col1 {
+            position: relative;
+            height: 539px;
+            width: 321px;
+            /* border: 2px solid red; */
+            top: 4px;
+
+        }
+
+        .col2 {
+            position: absolute;
+    left: 675px;
+    top: 99px;
+    /* border: 2px solid blue; */
+    height: 800px;
+    width: 408px;
+
+        }
+
+        .navi {
+            list-style: none;
+        }
+
+        .navbox {
+            height: 43px;
+            width: 321px;
+            border: 1px solid grey;
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-left: 10px;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+        .contents{
+            list-style: none;
+        }
+        .contentbox{
+            /* border: 2px solid red; */
+    height: 119px;
+    width: 410px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid rgb(82, 81, 81)
+        }
+
+        .bgchange{
+            background-color: rgb(110, 67, 228);
+        }
+        .head{
+            display: inline;
+            /* border: 2px solid green; */
+            
+        }
+        .date{
+            display: inline;
+            /* border: 2px solid green; */
+            position:relative;
+            left: 107px;
+            font-size: 12px;
+        }
+        .msg{
+    /* border: 2px solid green; */
+    position: relative;
+    top: 7px;
+    font-size: 18px;
+        }
+        .foot{
+                /* border: 2px solid green; */
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+
+        }
+       
+    </style>
 </head>
 
 <body>
@@ -25,6 +108,65 @@
     <div class="searchpanel">
         <input id="searchbox" placeholder="Search" type="text">
         <button id="searchbutton">Search</button>
+    </div>
+
+
+    <div class="content">
+        <p class="mainheading">List Group</p>
+        <hr>
+
+
+
+        <section>
+            <div class="col1">
+                <p class="subheading">Basic example</p>
+                <br>
+                <ul class="navi">
+                    <li class="navbox" style="background-color: rgb(110, 67, 228);">Lorem, ipsum dolor.</li>
+                    <li class="navbox">Lorem, ipsum dolor.</li>
+                    <li class="navbox">Lorem, ipsum dolor.</li>
+                    <li class="navbox">Lorem, ipsum dolor.</li>
+                    <li class="navbox">Lorem, ipsum dolor.</li>
+                </ul>
+            </div>
+
+
+            <content class="col2">
+                <p class="subheading">Custom content</p>
+                <br>
+                <ul class="contents">
+                    <li><div  class="contentbox bgchange">
+                        <h3 class="head">List group item heading</h3>
+                        <p class="date"> 3 days ago</p>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid harum hic tenetur?
+                        </p>
+                        <p class="foot">Lorem ipsum dolor sit.</p>
+                        
+
+                    </div></li>
+                    <li><div  class="contentbox">
+                        <h3 class="head">List group item heading</h3>
+                        <p class="date"> 3 days ago</p>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid harum hic tenetur?
+                        </p>
+                        <p class="foot">Lorem ipsum dolor sit.</p>
+                        
+
+                    </div></li>
+                    <li><div  class="contentbox">
+                        <h3 class="head">List group item heading</h3>
+                        <p class="date"> 3 days ago</p>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid harum hic tenetur?
+                        </p>
+                        <p class="foot">Lorem ipsum dolor sit.</p>
+                        
+
+                    </div></li>
+                </ul>
+
+            </content>
+        </section>
+
     </div>
 
 </body>

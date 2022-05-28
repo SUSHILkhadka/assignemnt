@@ -44,6 +44,24 @@
         .bgwhite{
             background-color: white;
         }
+        .primarydefault{
+            background-color: rgb(121, 88, 214);
+        }
+        .primaryoutline{
+            border: 2px solid rgb(121, 88, 214); color: rgb(121, 88, 214);
+
+        }
+    #pridef:hover{
+        color:white;
+        background-color: rgb(40, 3, 141);
+
+}
+#priout:hover{
+    color:white;
+    background-color: rgb(121, 88, 214);
+
+}
+
     </style>
 </head>
 
@@ -79,18 +97,18 @@
             </tr>
             <tr>
                 <td class="rowcol">default</td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(121, 88, 214);">Primary</button></td>
-                <td class="rowcol"><button class="bu purple bgwhite" style="border: 2px solid rgb(121, 88, 214); color: rgb(121, 88, 214);">Primary</button></td>
+                <td class="rowcol"><button class="bu white primarydefault" >Primary</button></td>
+                <td class="rowcol"><button class="bu purple bgwhite primaryoutline" >Primary</button></td>
             </tr>
             <tr>
                 <td class="rowcol">hover</td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(40, 3, 141);">Primary</button></td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(121, 88, 214);">Primary</button></td>
+                <td class="rowcol"><button class="bu white primarydefault" id="pridef" >Primary</button></td>
+                <td class="rowcol"><button class="bu white primaryoutline" id="priout">Primary</button></td>
             </tr>
 
             <tr>
                 <td class="rowcol">focus</td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(57, 36, 116);">Primary</button></td>
+                <td class="rowcol"><button class="bu white primarydefault" id="prifo" style="background-color: rgb(57, 36, 116);" >Primary</button></td>
             </tr>
         </table>
 
@@ -106,18 +124,18 @@
             </tr>
             <tr>
                 <td class="rowcol">default</td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(95, 156, 131);">Primary</button></td>
-                <td class="rowcol"><button class="bu grey bgwhite" style="border: 2px solid rgb(95, 156, 131); color:rgb(95, 156, 131);">Primary</button></td>
+                <td class="rowcol"><button class="bu white secondaydefault" style="background-color: rgb(95, 156, 131);">Primary</button></td>
+                <td class="rowcol"><button class="bu grey bgwhite secondaryoutline" style="border: 2px solid rgb(95, 156, 131); color:rgb(95, 156, 131);">Primary</button></td>
             </tr>
             <tr>
                 <td class="rowcol">hover</td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(45, 105, 80);">Primary</button></td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(95, 156, 131);">Primary</button></td>
+                <td class="rowcol"><button class="bu white secondarydefault " id="secdef" style="background-color: rgb(45, 105, 80);">Primary</button></td>
+                <td class="rowcol"><button class="bu white secondayoutline"  id="secout" style="background-color: rgb(95, 156, 131);">Primary</button></td>
             </tr>
 
             <tr>
                 <td class="rowcol">focus</td>
-                <td class="rowcol"><button class="bu white" style="background-color: rgb(56, 110, 88);">Primary</button></td>
+                <td class="rowcol"><button class="bu white" id="secfo" style="background-color: rgb(56, 110, 88);">Primary</button></td>
             </tr>
         </table>
 

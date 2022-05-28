@@ -10,19 +10,23 @@
 
 
     <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
         .col1 {
             position: relative;
             height: 539px;
             width: 321px;
             /* border: 2px solid red; */
-            top: 54px;
+            top: 4px;
 
         }
 
         .col2 {
             position: absolute;
             left: 431px;
-            top: 149px;
+            top: 99px;
             /* border: 2px solid blue; */
             height: 800px;
             width: 657px;
@@ -41,12 +45,14 @@
             padding-top: 10px;
             padding-left: 10px;
             font-size: 18px;
+            border-radius: 4px;
         }
 
         .field {
             box-sizing: border-box;
-            height: 35px;
-            width: 185px;
+            height: 40px;
+            width: 400px;
+            border-radius: 5px;
         }
         .checkbox-{
             font-size: 18px;
@@ -58,15 +64,64 @@
         .checkrow2{
             box-sizing: border-box;
     position: relative;
-    top: -90px;
-    left: 170px;
+    top: -117px;
+    left: 212px;    
         }
         .checkbox-{
+            top: 9px;
+    position: relative;
+    display: block;
+    font-size: 17px;
+    margin: 6px;
+    left: -13px;
+
+        }
+
+        .checkbox-inline{
+            position: relative;
+    box-sizing: border-box;
+    font-size: 17px;
+    /* border: 2px solid red; */
+    padding-right: 28px;
+    left: -9px;
+    top: 15px;
 
         }
         .checkbox-disable{
             pointer-events: none;
+            opacity: 0.3;
+
         }
+
+        input[type="checkbox"]{
+            border: 2px solid black;
+            position: relative;
+            top:2px;
+            accent-color: rgb(110, 67, 228);
+    height: 17px;
+    width: 30px;
+        }
+input[type="radio"]{
+    accent-color: rgb(110, 67, 228);
+    height: 17px;
+    width: 30px;
+}
+.main{
+    display: block;
+}
+.valfield{
+    display:block;  
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width:400px;
+}
+
+.valhead{
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 20px;
+}
     </style>
 </head>
 
@@ -100,13 +155,13 @@
                 <p class="subheading">Components</p>
                 <br>
                 <ul class="navi">
-                    <li class="navbox">Color</li>
-                    <li class="navbox">Typography</li>
-                    <li class="navbox">Buttons</li>
-                    <li class="navbox">Forms</li>
-                    <li class="navbox">List Group</li>
-                    <li class="navbox">Table</li>
-                    <li class="navbox">Card</li>
+                    <a href="color.html"><li class="navbox">Color</li></a>
+                    <a href="typography.html"><li class="navbox">Typography</a></li>
+                    <a href="buttons.html"><li class="navbox">Buttons</li></a>
+                    <a href="forms.html"><li style="background-color: rgb(110, 67, 228);" class="navbox">Forms</li></a>
+                    <a href="list_group.html"><li class="navbox">List Group</li></a>
+                    <a href="table.html"><li class="navbox">Table</li></a>
+                    <a href="card.html"><li class="navbox">Card</li></a>
                 </ul>
             </div>
 
@@ -122,7 +177,7 @@
                 </select>
 
                 <p class="subheading">Textarea</p>
-                <textarea rows="6" cols="50" class="tarea" placeholder="write something here"></textarea><br>
+                <textarea rows="6" cols="50" class="tarea" placeholder="write something here"></textarea>
 
 
 
@@ -131,10 +186,10 @@
                       <p>Checkboxes</p>
                       <label class="checkbox-">
                     <input type="checkbox" value="">Default Checkbox
-                  </label><br>
+                  </label>
                   <label class="checkbox-">
-                    <input type="checkbox" value="" checked="checked">Default Checkbox
-                  </label><br>
+                    <input type="checkbox" value="" checked="checked">Selected Checkbox
+                  </label>
 
                   <label class=" checkbox- checkbox-disable">
                     <input type="checkbox" value="">Default (disabled)
@@ -147,12 +202,49 @@
                     <input type="checkbox" value="">Default Checkbox
                   </label>
                   <label class="checkbox-inline">
-                    <input type="checkbox" value="" checked="checked">Default Checkbox
+                    <input type="checkbox" value="" checked="checked">Selected Checkbox
                   </label>
                   <label class="checkbox-inline checkbox-disable">
                     <input type="checkbox" value="">Default (disabled)
                   </label>
                 </div>
+
+
+                <p class="subheading">Radios</p>
+                <div class="checkrow1">
+                    <p>Radios</p>
+                    <label class="checkbox-">
+                  <input type="radio" value="">Default Radio
+                </label>
+                <label class="checkbox-">
+                  <input type="radio" value="" checked="checked">Selected Radio
+                </label>
+
+                <label class=" checkbox- checkbox-disable">
+                  <input type="radio" value="">Disabled radio
+                </label>
+
+              </div>
+                <div class="checkrow2">
+                    <p>Radios Inline</p>
+                    <label class="checkbox-inline">
+                  <input type="radio" value="">Default radio
+                </label>
+                <label class="checkbox-inline">
+                  <input type="radio" value="" checked="checked">Selected Radio
+                </label>
+                <label class="checkbox-inline checkbox-disable">
+                  <input type="radio" value="">Disable radio
+                </label>
+              </div>
+              <p class="subheading">Validation</p>
+              <label class="valhead">Input Success
+                <input type="input" class="valfield " style="border: 3px solid green"  value="">
+              </label>
+
+              <div style="margin-top: 10px;"><label class="valhead">Input Error
+                <input type="input" class="valfield " style="border:3px solid red" value="">
+              </label></div>
                   
             </form>
         </section>
