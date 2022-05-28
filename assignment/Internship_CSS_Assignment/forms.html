@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        .col1 {
+            position: relative;
+            height: 539px;
+            width: 321px;
+            /* border: 2px solid red; */
+            top: 54px;
+
+        }
+
+        .col2 {
+            position: absolute;
+            left: 431px;
+            top: 149px;
+            /* border: 2px solid blue; */
+            height: 800px;
+            width: 657px;
+
+        }
+
+        .navi {
+            list-style: none;
+        }
+
+        .navbox {
+            height: 43px;
+            width: 321px;
+            border: 1px solid grey;
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+
+        .field {
+            box-sizing: border-box;
+            height: 35px;
+            width: 185px;
+        }
+        .checkbox-{
+            font-size: 18px;
+        }
+
+        .col2 div p{
+            font-size: 20px;
+        }
+        .checkrow2{
+            box-sizing: border-box;
+    position: relative;
+    top: -90px;
+    left: 170px;
+        }
+        .checkbox-{
+
+        }
+        .checkbox-disable{
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigationbar">
+        <a href="#" class="logo nav_left">UI Kit</a>
+        <ul class="nav_right">
+            <li><a href="color.html">Color</a></li>
+            <li><a href="typography.html">Typography</a></li>
+            <li><a href="buttons.html">Buttons</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="list_group.html">List Group</a> </li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="card.html">Card</a></li>
+        </ul>
+    </nav>
+    <div class="searchpanel">
+        <input id="searchbox" placeholder="Search" type="text">
+        <button id="searchbutton">Search</button>
+    </div>
+
+
+    <div class="content">
+        <p class="mainheading">Forms</p>
+        <hr>
+
+
+
+        <section>
+            <div class="col1">
+                <p class="subheading">Components</p>
+                <br>
+                <ul class="navi">
+                    <li class="navbox">Color</li>
+                    <li class="navbox">Typography</li>
+                    <li class="navbox">Buttons</li>
+                    <li class="navbox">Forms</li>
+                    <li class="navbox">List Group</li>
+                    <li class="navbox">Table</li>
+                    <li class="navbox">Card</li>
+                </ul>
+            </div>
+
+
+            <form class="col2">
+                <p class="subheading">Input</p>
+                <input type="text" placeholder="Placeholder" class="field">
+                <p class="subheading">Select menu</p>
+                <select class="field">
+                    <option value="0">Select Menu</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                </select>
+
+                <p class="subheading">Textarea</p>
+                <textarea rows="6" cols="50" class="tarea" placeholder="write something here"></textarea><br>
+
+
+
+                  <p class="subheading">Checkboxes</p>
+                  <div class="checkrow1">
+                      <p>Checkboxes</p>
+                      <label class="checkbox-">
+                    <input type="checkbox" value="">Default Checkbox
+                  </label><br>
+                  <label class="checkbox-">
+                    <input type="checkbox" value="" checked="checked">Default Checkbox
+                  </label><br>
+
+                  <label class=" checkbox- checkbox-disable">
+                    <input type="checkbox" value="">Default (disabled)
+                  </label>
+
+                </div>
+                  <div class="checkrow2">
+                      <p>Checkboxes Inline</p>
+                      <label class="checkbox-inline">
+                    <input type="checkbox" value="">Default Checkbox
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" value="" checked="checked">Default Checkbox
+                  </label>
+                  <label class="checkbox-inline checkbox-disable">
+                    <input type="checkbox" value="">Default (disabled)
+                  </label>
+                </div>
+                  
+            </form>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
