@@ -1,0 +1,184 @@
+.logo{
+    float: left;
+    /* display: inline; */
+}
+
+.halfcolor{
+    color: #4E42D9;
+}
+.logo p{
+    font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+}
+.navbar{
+    float: right;
+    /* background-color: aqua; */
+
+}
+ul{
+    list-style: none;
+}
+.navbar li{
+    float:left;
+}
+.textstyle1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.9rem;
+    color: #3B3950    ;
+}
+.textstyle2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #3B3950    ;
+
+}
+.textstyle3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 3.56rem;
+    color: #3B3950    ;
+
+}
+.textstyle4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 38px */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    /* Body / Title */
+    
+    color: #3B3950;
+
+}
+.textstyle5{
+    font-weight: 500;
+font-size: 14px;
+line-height: 140%;
+color: #797979;
+}
+.textstyle6{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+letter-spacing: 0.01em;
+
+/* Body / Title */
+
+color: #3B3950;
+
+}
+.textstyle7{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+letter-spacing: 0.01em;
+
+/* Body / Paragraph */
+
+color: #797979;
+
+    
+}
+.textstyle8{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    /* Body / Paragraph */
+    
+    color: #797979;
+    width: auto;
+    
+
+    
+}
+
+.textstyle9{
+    font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.textstyle10{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: rgba(255, 255, 255, 0.8);
+}
+
+.textstyle11{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 220%;
+    /* identical to box height, or 20px */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.textstyle12{
+    font-weight: 400;
+font-size: 16px;
+line-height: 2rem;
+/* identical to box height, or 18px */
+
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.footerstyle{
+    font-weight: 500;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+
+color: rgba(255, 255, 255, 0.8);
+}
+.iconrect{
+    height: 90px;
+    width: 90px;
+    background-color: blue;
+    border-radius: 8px;
+}
+.firsticon{
+    background-color: #FFF2F2;
+}
+.secondicon{
+    background-color: #E2F3FF;
+}
+.thirdicon{
+    background-color:#FDFBDA    ;
+
+}
+.fourthicon{
+    background-color: #FFE7FB
+    ;
+
+}

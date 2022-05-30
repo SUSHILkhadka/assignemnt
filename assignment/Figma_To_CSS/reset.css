@@ -1,0 +1,35 @@
+*{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background-color: #4E42D9;
+    padding: 1rem 1.8rem 1rem 1.8rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+.navtext{
+    font-size: 16px;
+    font-weight: 400;
+}
+.navcolor{
+    color: #797979;
+}
+.blue{
+    color: #4E42D9;
+}
+a:hover{
+    background-color: rgba(78, 66, 217, 0.18);
+    color:  #4E42D9;
+}
+.thumbnail{
+    width: 19rem;
+
+}

@@ -1,0 +1,150 @@
+.logo{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem
+}
+.navbar{
+    padding-top:2.18rem;
+}
+.navbar li{
+    padding-right : 2.18rem;
+
+}
+.navbar li:last-child{
+    padding-right: 2.18rem;
+
+}
+.row2{
+    clear: both;
+    padding-top: 0;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+}
+
+.row2col2{
+    float:right;
+}
+.row2col1{
+    float:left;
+    padding-top: 3.65rem;
+    width: 35.7%;
+
+}
+
+.twobuttons{
+    float:left;
+    padding-top: 3rem;
+    display: inline;
+
+}
+.row3{
+    clear: both;
+    text-align:center;
+}
+.row4{
+        clear: both;
+        margin-top: 1px;
+        margin-left: 7.5rem;
+        margin-right: 7.5rem;
+        /* float: left; */
+
+}
+
+.row4col1{
+    float:left;
+    width: 18rem;
+    margin-right: -1rem;
+    
+
+}
+.textbox4{
+    clear:both;
+    margin-right: 0;
+    text-align: center;
+    width: 78%;
+}
+.iconrect{
+    margin-left:22%;
+    margin-right: 40%;
+}
+
+.row5{
+    clear: both;
+    padding-top: 4rem;
+    padding-left: 27.5rem;
+    padding-right: 27.5rem;
+    text-align: center;
+}
+.textboxrow5{
+    text-align: center;
+    width: 74%;
+}
+.row6{
+    clear: both;
+    margin-top: 2rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+
+}
+.row6col1{
+    float: left;
+    text-align: left;
+    width: 26.8%;
+    padding-right: 6.25rem;
+
+}
+.row6col1:last-child{
+    padding-right: 0;
+
+}
+.row7{
+    clear: both;
+    padding: 5.4rem;
+    text-align: center;
+}
+.row8{
+    height: 21rem;
+    padding-top: 1px;
+    background-color: #292838 ;
+}
+.row8col1{
+    float: left;
+    margin-top: 4.5rem;
+    margin-left: 7.35rem;
+    width: 25rem;
+}
+.container{
+    float: right;
+    margin-top: 4.5rem;
+    margin-right: 11.8rem;
+    width: 25rem;
+    /* border: 1px solid red; */
+
+}
+.r1{
+    float: left;
+    /* margin-top: 4.5rem; */
+    margin-right: 2rem;
+}
+.r1:last-child{
+    margin-right: 0px;
+}
+.lastrow{
+
+    background-color: #23222F    ;
+    padding-top: 1rem;
+    padding-bottom:1.2rem ;
+    text-align: center;
+}
+.iconposition{
+    position: relative;
+    top: -3.57rem;
+    left: 5.625rem;
+
+    /* -57,90 */
+}
+.logo p{
+    float: left;
+   /* display: inline; */
+
+}
