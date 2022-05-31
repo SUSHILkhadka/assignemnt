@@ -1,0 +1,63 @@
+/* @media all and (max-width: 1200px    ) and (min-width: 576px) {
+    html{
+        font-size: 10px;
+    }
+        .halfcolor {
+            color: #f73998;
+        }
+
+    } */
+    @media all and (max-width: 1200px    ) {
+        html{
+            font-size: 12px;
+        }
+
+            .row2col2{
+                float:none;
+                text-align: center;
+            }
+            .row2col1{
+                float: none;
+                margin: 11vw auto 0vw auto;
+                width: 90vw;
+                /* text-align: left; */
+            }
+            .twobuttons {
+                float: left;
+                padding-top: 3rem;
+        
+            }
+            .row3 {
+                clear: both;
+                text-align: center;
+                padding-top: 10vw;
+            }
+            .row4{
+                clear: both;
+                margin-top: 1px;
+                margin-left: 16.5rem;
+                margin-right: 7.5rem;
+                /* float: left; */
+        
+        }
+            .row4col1{
+
+                float: left;
+                width: 20vw;
+                margin-right: 17vw;
+            }
+            .offset{
+                padding-bottom: 3.25rem;
+            
+            }
+            .even{
+                margin-right: 0vw;
+            }
+
+            .r2{
+                margin-bottom: 5rem;
+                /* margin-right: 0rem; */
+            }
+
+    
+        }

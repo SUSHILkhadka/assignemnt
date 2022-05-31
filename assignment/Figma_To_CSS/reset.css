@@ -1,0 +1,39 @@
+*{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+.btn{
+    background-color: #4E42D9;
+    padding: 16px 30px 16px 30px;
+    border-radius: 4px;
+    margin-right: 12px;
+    color: white;
+    font-weight: 600;
+}
+.navtext{
+    font-size: 16px;
+    font-weight: 400;
+}
+.navcolor{
+    color: #797979;
+}
+.blue{
+    color: #4E42D9;
+}
+a:hover{
+    background-color: rgba(78, 66, 217, 0.18);
+    color:  #4E42D9;
+}
+img{
+    width:100%;
+}
