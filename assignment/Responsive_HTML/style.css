@@ -1,7 +1,4 @@
-.logo{
-    float: left;
-    /* display: inline; */
-}
+
 
 .halfcolor{
     color: #4E42D9;
@@ -13,17 +10,11 @@ line-height: 45px;
 /* identical to box height */
 
 }
-.navbar{
-    float: right;
-    /* background-color: aqua; */
 
-}
 ul{
     list-style: none;
 }
-.navbar li{
-    float:left;
-}
+
 .textstyle1{
     font-weight: 700;
     font-size: 36px;
@@ -164,21 +155,11 @@ color: rgba(255, 255, 255, 0.8);
 .iconrect{
     height: 90px;
     width: 90px;
-    background-color: blue;
-    border-radius: 8px;
 }
-.firsticon{
-    background-color: #FFF2F2;
-}
-.secondicon{
-    background-color: #E2F3FF;
-}
-.thirdicon{
-    background-color:#FDFBDA    ;
 
-}
-.fourthicon{
-    background-color: #FFE7FB
-    ;
-
+.forBackgroundColor{
+    float: none;
+    background-color: #F8F8F8;
+    clear: both;
+    margin-top: 12rem;
 }

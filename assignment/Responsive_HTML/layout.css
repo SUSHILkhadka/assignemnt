@@ -1,12 +1,17 @@
+
 .logo{
+    float: left;
     padding-top: 2rem;
     padding-left: 2rem;
     padding-bottom: 2rem
 }
+
 .navbar{
+    float: right;
     padding-top:2.18rem;
 }
 .navbar li{
+    float:left;
     padding-right : 2.18rem;
 
 }
@@ -52,29 +57,37 @@
 
 .row4col1{
     float:left;
-    width: 18rem;
-    margin-right: -1rem;
+    width: 20vw;
+    margin-right: 0vw;
+    margin-top:1rem;
     
 
+}
+.row4::after{
+    clear: both;
+}
+.row4col1:last-child{
+    margin-right: 0vw;
 }
 .textbox4{
     clear:both;
     margin-right: 0;
     text-align: center;
-    width: 78%;
+    width: 19vw;
 }
 .iconrect{
-    margin-left:22%;
-    margin-right: 40%;
+    margin: 0 auto;
 }
 
 .row5{
     clear: both;
     padding-top: 4rem;
-    padding-left: 27.5rem;
-    padding-right: 27.5rem;
+    padding-left: auto;
+    padding-right: auto;
+
     text-align: center;
 }
+
 .textboxrow5{
     text-align: center;
     width: 74%;
@@ -90,7 +103,7 @@
     float: left;
     text-align: left;
     width: 26.8%;
-    padding-right: 6.25rem;
+    padding-right: 3.25rem;
 
 }
 .row6col1:last-child{
@@ -99,52 +112,86 @@
 }
 .row7{
     clear: both;
-    padding: 5.4rem;
+    padding: 5.4rem ;
     text-align: center;
 }
 .row8{
-    height: 21rem;
-    padding-top: 1px;
+    /* height:100px; */
     background-color: #292838 ;
+    /* border: 1px solid red; */
 }
 .row8col1{
     float: left;
     margin-top: 4.5rem;
     margin-left: 7.35rem;
-    width: 25rem;
+    width: 27vw;
+    overflow: hidden;
 }
-.container{
+.row8col1:after {
+    content: "";
+    display: block;
+    clear: both;
+  } 
+/* .container{
+    width: 36vw;
     float: right;
     margin-top: 4.5rem;
     margin-right: 11.8rem;
-    width: 25rem;
-    /* border: 1px solid red; */
-
+    border: 1px solid red;
 }
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }  */
+
+
+  .wrappper{
+      /* clear: both; */
+    /* clear: both; */
+    margin-right: 9vw;
+    margin-top: 4rem;
+    width: 42vw;
+    /* border: 1px solid green; */
+    float: right;
+
+  }
+  .wrappper:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  } 
+  .row8::after{
+      content: "";
+    display: block;
+      clear: both;
+  }
 .r1{
     float: left;
-    /* margin-top: 4.5rem; */
-    margin-right: 2rem;
+    margin-right: 6.25vw;
+    margin-bottom: 3rem;
 }
 .r1:last-child{
     margin-right: 0px;
 }
 .lastrow{
-
+    clear:both;
     background-color: #23222F    ;
     padding-top: 1rem;
     padding-bottom:1.2rem ;
     text-align: center;
 }
-.iconposition{
-    position: relative;
-    top: -3.57rem;
-    left: 5.625rem;
-
-    /* -57,90 */
-}
 .logo p{
     float: left;
    /* display: inline; */
 
+}
+.option{
+    float: right;
+    display: none;
+    margin-top: 3rem;
+    margin-right: 9vw;
+    width: 4.1vw;
+    height: auto;
 }

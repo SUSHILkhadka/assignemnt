@@ -8,10 +8,15 @@
 a{
     text-decoration: none;
 }
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
 .btn{
     background-color: #4E42D9;
-    padding: 1rem 1.8rem 1rem 1.8rem;
+    padding: 16px 30px 16px 30px;
     border-radius: 4px;
+    margin-right: 12px;
     color: white;
     font-weight: 600;
 }
@@ -29,7 +34,6 @@ a:hover{
     background-color: rgba(78, 66, 217, 0.18);
     color:  #4E42D9;
 }
-.thumbnail{
-    width: 19rem;
-
+img{
+    width:100%;
 }
