@@ -1,0 +1,107 @@
+.card3{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top:5rem;
+    width: 19.4%;
+    border-radius: 8px;
+}
+.card3 button{
+    margin: 1rem;
+    margin-bottom: 0.4rem;
+    padding: 0.3rem;
+    background-color: #27AE60;
+    color: white;
+    font-weight: 400;
+font-size: 14px;
+
+border-radius: 8px;
+border: none;
+}
+.card3 p{
+    margin: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0.4rem;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.card3 .another{
+color: #4F4F4F;
+}
+.card3 img{
+    width: 100%;
+}
+
+.card3 .footer .icon-text img{
+    width: 10%;
+    margin-left: 1rem;
+    float: left;
+}
+.card3 .footer .icon-text p{
+    float: left;
+    margin: 0rem;
+    margin-top: 0.4rem;
+    margin-left:0.2rem;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.card3 .footer .icon-text .icons{
+    width: 5%;
+}
+.card3 .footer .goright p{
+    margin: 0rem;
+    margin-left: 0.2rem;
+}
+.card3 .footer::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.iconsandtextwrapper{
+    float:right;
+    width: 45%;
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+.card3 .footer  .iconsandtextwrapper .icon-text .icons{
+    width: 14%;
+}
+.card3 .footer  .iconsandtextwrapper .icon-text {
+    margin-right: 0.5rem;
+}
+/* .card3 .footer .icon-text  {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.card3 .footer  .iconsandtextwrapper a:hover{
+    box-shadow:  2px 2px 2px 1px rgba(226, 15, 15, 0.6);
+
+
+}
+
+
+.card3{
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card3:hover{
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+.card3{
+    margin-bottom: 15rem;
+}

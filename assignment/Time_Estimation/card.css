@@ -1,0 +1,144 @@
+.card1 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top:5rem;
+    width: 19.4%;
+    border-radius: 8px;
+}
+.card1 .head .head-pic{
+    padding: 1rem;
+    width: 13%;
+}
+.card1 .head .head-pic img{
+
+    width: 100%;
+}
+
+.card1 .head .head-text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+width: 60%;
+}
+.style1{
+    width: 70%;
+    line-height: 17px;
+color: #828282;
+
+}
+.card1 .head .head-ham{
+    padding: 1rem;
+    width: 2%;
+}
+.card1 .head .head-ham img{
+    width: 100%;
+}
+.card1 .head .head-pic{
+    float: left;
+}
+.card1 .head .head-text{
+    margin-top: 1rem;
+    float: left;
+}
+.card1 .head .head-ham{
+    float: right;
+}
+
+.card1 .head::after{
+    content: "";
+    clear: float;
+    display: table;
+}
+
+
+
+
+.card1 .head .head-ham a img:hover{
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.iconpic:hover{
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+
+/* head done */
+
+.card1 .bodypic{
+    width: 100%;
+}
+
+.card1 .icons{
+    margin-top: 0rem;
+    width: 100%;
+}
+
+.card1 .icons a img.iconpic{
+    width: 100%;
+    /* margin: 1rem auto; */
+}
+.card1 .icons a{
+    width: 10%;
+    float: left;
+    padding: 1rem;
+    padding-right: 4rem;
+
+}
+.card1 .icons a:last-child{
+    padding-right: 0rem;
+}
+
+.card1 .icons::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card1 .icons{
+    border-bottom: 1px solid #F2F2F2
+    ;
+}
+
+
+
+/* footer starts */
+
+
+.card1 .footer  img{
+
+    padding: 1rem;
+    width: 13%;
+    float: left
+}
+.card1  input{
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+    border: 1px solid #E0E0E0;
+    border-radius: 16px;
+    padding: 0.3rem;
+    padding-left: 1rem;
+/* identical to box height */
+/* Gray 4 */
+}
+.card1 .footer::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.card1 .head{
+    background-color: white;
+}
+.card1{
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card1:hover{
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,8 @@
+	Estimated	Taken
+color:	30min		40min
+Tabs:	10min		8min
+Button:	20min		15min
+Forms:	30min		40min
+List:	15min		13min
+table:	15min		6min
+card:	1.5hr		2hr

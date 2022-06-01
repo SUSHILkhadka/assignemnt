@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="card2.css">
+    <link rel="stylesheet" href="card3.css">
+    <style>
+        .components{
+            float: left;
+        }
+        .components{
+            width: 24%;
+            margin-right: 0rem;
+        }
+        .form{
+            width: 56%;
+            float: right;
+            margin-left: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <p class="logo">UI kit</p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="color.html">Color</a></li>
+                <li><a href="tab.html">Typography</a></li>
+                <li><a href="button.html">Buttons</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="list.html">List Group</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="card.html">Card</a></li>
+            </ul>
+        </nav>
+        <div class="searchwithbutton">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </header>
+
+
+    <div class="title">
+        <p>Forms</p>
+        <hr>
+    </div>
+
+
+    <div class="components">
+        <p>Components</p>
+        <div class="componentsbuttons firstone">
+            <a href="#">
+                <div class="cptbtn">Color</div>
+            </a>
+        </div>
+        <div class="componentsbuttons">
+            <a href="#">
+                <div class="cptbtn">Typography</div>
+            </a>
+        </div>
+        <div class="componentsbuttons">
+            <a href="#">
+                <div class="cptbtn">Buttons</div>
+            </a>
+        </div>
+        <div class="componentsbuttons selected">
+            <a href="#">
+                <div class="cptbtn white">Forms</div>
+            </a>
+        </div>
+        <div class="componentsbuttons">
+            <a href="#">
+                <div class="cptbtn">List Group</div>
+            </a>
+        </div>
+        <div class="componentsbuttons">
+            <a href="#">
+                <div class="cptbtn">Table</div>
+            </a>
+        </div>
+        <div class="componentsbuttons">
+            <a href="#">
+                <div class="cptbtn">Card</div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <div class="form">
+        <form>
+            <p>Input</p>
+            <input class="inputfirst" type="text" placeholder="Placeholder">
+            <p class="gap">SelectMenu</p>
+            <select name="cars" id="cars">
+                <option value="volvo">Select Menu</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+            <p class="gap">Textarea</p>
+            <textarea>Write your message here</textarea>
+            <p class="gap">Checkboxes</p>
+            <div class="radioandcheckboxes">
+                <div class="col1">
+                    <p>Checkboxes</p>
+                    <input type="checkbox" class="inputtop">
+                    <label for="check"> Default checkbox</label><br>
+                    <input type="checkbox" checked="checked">
+                    <label for="check"> Selected checkbox</label><br>
+                    <input type="checkbox" class="checkbox-disable">
+                    <label for="check" class="checkbox-disable"> Disabled checkbox</label><br>
+
+                </div>
+                <div class="col2">
+                    <p>Checkboxes Inline</p>
+                    <input type="checkbox">
+                    <label for="check"> Default checkbox</label>
+                    <input type="checkbox" checked="checked">
+                    <label for="check"> Selected checkbox</label>
+                    <input type="checkbox" class="checkbox-disable">
+                    <label for="check" class="checkbox-disable"> Disabled Checked</label>
+
+                </div>
+            </div>
+            <p class="gap">Checkboxes</p>
+            <div class="radioandcheckboxes">
+                <div class="col1">
+                    <p>Radios</p>
+                    <input type="radio" class="inputtop">
+                    <label for="check"> Default Radio</label><br>
+                    <input type="radio" checked="checked">
+                    <label for="check"> Selected Radio</label><br>
+                    <input type="radio" class="checkbox-disable">
+                    <label for="check" class="checkbox-disable"> Disabled Radio</label><br>
+
+                </div>
+                <div class="col2">
+                    <p>Radios Inline</p>
+                    <input type="radio">
+                    <label for="check"> Default Radio</label>
+                    <input type="radio" checked="checked">
+                    <label for="check"> Selected Radio</label>
+                    <input type="radio" class="checkbox-disable">
+                    <label for="check" class="checkbox-disable"> Disabled Radio</label>
+
+                </div>
+            </div>
+
+            <div class="validation">
+                <p>Validation</p>
+                <p class="text">Input Success</p>
+                <input class="inputfirst success" type="text">
+                <p class="text">Input Error</p>
+                <input class="inputfirst error" type="text">
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
