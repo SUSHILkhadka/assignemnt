@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+    react-app:
+      stdin_open: true
+      build:
+        context: .
+        dockerfile: Dockerfile
+      volumes:
+          - '.:/usr/src/app'
+          - /usr/src/app/node_modules
+      ports:
+        - 3001:3000
+
