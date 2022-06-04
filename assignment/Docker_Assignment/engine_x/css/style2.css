@@ -1,0 +1,373 @@
+.row8{
+    width: 81.25%;
+    margin: 2rem auto 0rem auto;
+}
+
+.row8__profilecard{
+    width: calc(95%/3);
+    text-align: center;
+
+
+    float: left;
+
+    background: #FFFFFF;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+border-radius: 0.7rem;
+
+}
+
+.row8 .mid{
+    margin-left: 1.5rem;
+    margin-right:1.5rem
+}
+
+
+.row8__profilecard img{
+    width: 60%;
+    margin-top: 2rem;
+}
+.row8__profilecard h2{
+    margin-top: 3rem;
+
+
+
+    font-weight: 700;
+font-size: 1.95rem;
+line-height: 2.93rem;
+text-transform: uppercase;
+color: #232233;
+
+}
+.row8__profilecard h4{
+
+
+    font-weight: 600;
+font-size: 1.25rem;
+line-height: 1.875rem;
+text-transform: uppercase;
+color: #6C6C72;
+}
+.row8 .row8__profilecard p{
+    width: 89%;
+    margin: 1rem auto;
+
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C72;
+
+}
+
+.row8__lasticonrow img{
+    margin: 1rem;
+    background: #5956E9;
+    width: 5%;
+}
+.row8__lasticonrow img.small{
+    width:3%;
+}
+.row8__lasticonrow img.extrasmall{
+    width:0.3%;
+}
+.row8__lasticonrow img.large{
+    width:7%;
+}
+
+.row8__lasticonrow img:hover{
+    box-shadow: rgba(87, 25, 231, 0.35) 0px 5px 15px;
+}
+
+
+.row8__profilecard:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.row8::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+/* row8 */
+
+
+
+.row8withbg{
+    background-image: url("../images/bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    z-index: -1; */
+
+    
+}
+
+
+ .row8 h3{
+    /* burrowed from centerrow */
+
+
+    font-weight: 700;
+font-size: 1.95rem;
+line-height: 2.93rem;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.row8 p{
+    /* burrowed from centerrow */
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* row9 */
+
+.row9{
+    width: 81.25%;
+    margin: 2.5rem auto 0rem auto;
+    position: relative;
+}
+
+.row9 .row8__profilecard{
+
+box-sizing: border-box;
+width: calc(95%/2);
+float: left;
+
+padding-bottom: 1rem;
+}
+
+
+
+.row9 .row8__profilecard{
+
+    
+    }
+
+
+.row9 .row8__profilecard:hover{
+    box-shadow: rgba(233, 64, 64, 0.35) 0px 5px 15px;
+cursor: pointer;
+
+    }
+
+.row9 .row8__profilecard img{
+    width: 16%;
+}
+
+.row9 :first-child{
+    margin-right: 1rem;
+    margin-top: 2rem;
+
+    margin-left: 0rem;
+
+    
+
+}
+.row9 :last-child{
+    /* margin-left: 0.8rem; */
+    margin-top: 2rem;
+    /* float:right; */
+}
+
+.row9 .row8__profilecard p{
+    margin-left: 1rem ;
+    margin-right: 1rem;
+
+}
+
+.row9 .mid{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+
+
+    position: absolute;
+    left: 26.25%;
+
+
+
+}
+
+
+.row9::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+/* row10 */
+
+.row10{
+    margin: 1rem auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.row10 img{
+    background-color: white;
+    border-radius: 50%;
+
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+
+
+}
+
+.row10 img:hover{
+    transition: 0.7s;
+    background-color: #5956E9;
+
+}
+
+.row10 img:focus{
+    background-color: rgb(68, 65, 65);
+
+}
+
+
+
+
+
+
+
+
+
+/* row11 */
+.row11 h3{
+    margin-top: 5rem;
+    
+    font-weight: 700;
+font-size: 1.93rem;
+line-height: 2.93rem;
+text-transform: uppercase;
+color: #232233;
+}
+
+.row11 p{
+
+
+    font-weight: 400;
+font-size: 1rem;
+line-height: 1.5rem;
+text-align: center;
+color: #6C6C72;
+}
+
+
+
+
+
+
+
+
+
+/* row12 */
+
+.row12{
+    width: 81.25%;
+    margin: 2.5rem auto 0rem auto;
+
+}
+
+.row12 .row8__profilecard{
+    width: calc(94%/3);
+    text-align: left;
+}
+.row12 .mid{
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+
+}
+.row12 .row8__profilecard h2{
+    margin: 1rem 1rem 0rem 0rem;
+    margin-left: 1rem;
+    text-align: left;
+
+    font-weight: 600;
+font-size: 1.25rem;
+line-height: 1.9rem;
+text-transform: uppercase;
+color: #232233;
+
+}
+.row12 .row8__profilecard p{
+/* since selector  on 2upward function didnot work */
+
+    text-align: left;
+    width: 90%;
+    margin: 1rem 1rem 0rem 0rem;
+    margin-left: 1rem;
+
+
+
+    font-weight: 400;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #6C6C72;
+}
+
+.row12 .row8__profilecard img{
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.row12 .row8__profilecard a {
+    margin: 1rem 3rem 2.4rem 0rem;
+    margin-left: 1rem;
+    display: inline-block;
+
+
+    font-weight: 600;
+font-size: 1.25rem;
+line-height: 130%;
+text-decoration-line: underline;
+text-transform: uppercase;
+color: #5851EA;
+}
+
+.row12 .row8__profilecard a:hover {
+color: #25225a;
+}
+
+
+.row12::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+

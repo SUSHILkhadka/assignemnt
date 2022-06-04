@@ -1,0 +1,7 @@
+.navbar__hamburger{
+    float: right;
+    display: none;
+}
+.navbar input{
+    display:none;
+}

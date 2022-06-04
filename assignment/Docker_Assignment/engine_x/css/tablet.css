@@ -1,0 +1,295 @@
+@media screen and (max-width: 1112px) {
+
+    .navbar {
+        background-color: rgb(9, 255, 0);
+        background-color: transparent;
+
+    }
+
+    .formobilewrapper {
+        float: none;
+    }
+
+    .top_iconsecond {
+        margin: 1rem auto;
+        float: none;
+
+    }
+
+    .navbar .navbar__left {
+        display: none;
+    }
+
+    .navbar .navbar__right {
+        display: none;
+    }
+
+    .navbar .navbar__logo {
+        padding: 0.5rem;
+        text-align: left;
+        position: static;
+        left: 0;
+        top: 0;
+        float: left;
+
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+
+
+
+    .navbar__hamburger {
+        float: right;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .navbar__hamburger:hover {
+        color: aqua;
+    }
+
+    .navbar__hamburger:focus {
+        box-shadow: 10px 10px 5px lightblue;
+    }
+
+
+
+
+    #toggle:checked~.navbar__left {
+        display: inline;
+    }
+
+    .navbar__left {
+        float: none;
+        margin: 0rem auto;
+    }
+
+    .navbar__left li {
+        clear: both;
+        padding-top: 1rem;
+        float: none;
+        text-align: center;
+    }
+
+
+
+    #toggle:checked~.navbar__right {
+        display: inline;
+    }
+
+    .navbar__right {
+        float: none;
+    }
+
+    .navbar__right li {
+        float: none;
+        text-align: center;
+    }
+
+
+
+
+
+
+    /* row2 */
+
+    .row2__imgright {
+        float: none;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+
+    .row2__contentleft {
+
+        float: none;
+        width: 100%;
+        /* border: 1px solid red; */
+        margin-bottom: 4rem;
+        margin-right: 1rem;
+    }
+
+
+
+
+
+
+
+
+    /* row4 */
+    .row4__imgright {
+        width: 100%;
+        /* width: 100%; */
+        float: none;
+    }
+
+    .row4__card {
+        width: 100%;
+        margin: 0px auto;
+        float: none;
+
+        box-sizing: border-box;
+
+        margin-top: 2rem;
+    }
+
+
+
+
+
+
+
+
+    /* row5 */
+    .row5__imgright {
+        float: none;
+        width: 100%;
+    }
+
+    .row5 .row2__contentleft {
+        float: none;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    /* row8 */
+    .row8__profilecard {
+        width: 100%;
+        float: none;
+
+        margin-top: 1rem;
+
+    }
+
+    .row8 .mid {
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+    }
+
+
+
+
+
+
+
+
+    /* row12 */
+
+
+    .row12 .row8__profilecard {
+        width: 100%;
+        float: none;
+
+        margin-top: 1rem;
+    }
+
+
+    .row12 .mid {
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mid2 */
+
+.mid2{
+padding-top: 1rem;
+    top: 12rem;
+    background-color: white;
+}
+
+
+.mid2__line{
+    display: none;
+}
+
+.mid2__iconcard{
+    width: 20%;
+    float: none;
+
+    padding: 0px;
+    text-align: center;
+
+}
+
+.mid2__iconcard img{
+    float: none;
+
+    }
+    .mid2__iconcard h3{
+        float: none;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    margin-bottom: 2rem;
+
+        /* display: inline; */
+        
+        }
+
+
+
+
+
+
+
+
+    /* row13 */
+    .row13 .row8__profilecard {
+        width: 100%;
+
+    }
+
+
+    .row13__link {
+        float: left;
+        width: 47%;
+
+        margin-top: 2rem;
+        margin-left: 0rem;
+        margin-right: 2rem;
+
+    }
+
+
+    .row13__letter {
+        width: 47%;
+        float: left;
+
+        margin-top: 2rem;
+
+    }
+
+
+
+    /* .row6 p{    
+        margin-bottom: -8rem;
+        
+        
+        } */
+
+
+
+}

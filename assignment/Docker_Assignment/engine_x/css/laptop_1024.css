@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px) {
+    *{
+        font-size: 14px;
+    }
+
+
+    .mid1 img{
+        top: 15vw;
+    
+    }
+
+    .mid1 .mid1__playicon{
+        top: 26vw;
+    }
+
+
+
+    /* .row6 p{    
+    margin-bottom: -9rem;
+    
+    
+    } */
+  }

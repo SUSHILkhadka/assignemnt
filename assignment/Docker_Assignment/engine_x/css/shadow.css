@@ -1,0 +1,9 @@
+.hovershadow:hover{
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1000px;
+
+    transition: 0.2s ;
+
+}
+
+
