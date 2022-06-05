@@ -1,0 +1,72 @@
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.btn{
+    padding-top:0.8rem;
+    padding-bottom:0.8rem;
+    padding-left:3.125rem;
+    padding-right:3.125rem;
+
+    background-color: white;
+    color: black;
+    border-radius: 80px;
+
+}
+.signup{
+    background: #F48C06;
+    color: #FFFFFF;
+}
+
+
+.outline{
+    border: 1px solid #F48C06;
+    background-color: white;
+    color: #F48C06;
+
+}
+
+.news{
+
+    padding-top:0.1rem;
+    padding-bottom:0.1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    background: #F4C467;
+    border-radius: 80px;
+
+    font-size: 20px;
+line-height: 180%;
+letter-spacing: 0.02em;
+color: #252641;
+
+}
+.small{
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.02em;
+color: #252641;
+
+}
+.blue{
+    color: white;
+
+    background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);
+border-radius: 60px;
+    font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+
+}
+
+.red{
+    background: #D8587E;
+border-radius: 80px;
+
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+}

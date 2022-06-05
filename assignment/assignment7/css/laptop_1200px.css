@@ -1,0 +1,190 @@
+@media screen and (max-width: 1200px) {
+*{
+overflow-x:visible;
+
+}
+
+
+.row2__cardleft a{
+    margin-top: 4rem;
+}
+.row2__cardleft .watchbutton p{
+
+    margin-top: 4rem;
+
+}
+.row1withbg{
+    clip-path: none;
+}
+    .first{
+        position: absolute;
+        top: 11rem;
+        left:74%;
+}
+
+.third{
+    left:64%;
+}
+
+
+    .row2__cardleft{
+        width: 90%;
+        float: none;
+    }
+
+.row2__contentright{
+    width: 90%;
+
+    float: none;
+}
+
+.row5__card{
+    margin-top: 6rem;
+
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 98%;
+}
+
+
+
+.row7__card{
+    margin-top: 3rem;
+    width: 93%;
+}
+
+
+
+
+
+
+
+
+.row8__contentleft{
+    float: none;
+    width: 100%;
+}
+.row8__imageright{
+    margin-top: 4rem;
+    float: none;
+    width: 100%;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+
+}
+
+#row8__firstrect{
+    width: 20%;
+    position: absolute;
+    top: -1vw;
+    left: -1vw;
+    z-index: -1;
+}
+
+#row8_secondrect{
+position: relative;
+    top: -15vw;
+    left: 67vw;
+
+}
+
+.row10__imgleft{
+    width: 98%;
+    float: none;
+}
+.row10__contentright{
+    float: none;
+    width: 98%;
+}
+
+
+.row11__imgright{
+    width: 100%;
+    float: none;
+}
+
+.row11__contentleft{
+    margin-top: 4rem;
+    width: 98%;
+    float: none;
+}
+
+
+.row12 .row11__contentleft {
+    float: none;
+}
+
+.row17 .row11__contentleft{
+    width: 98%;
+    float: none;
+}
+
+
+
+.row17 .row11__imgright{
+    margin-top: 4rem;
+    float: none;
+    width: 98%;
+}
+
+.row17__ratingcard {
+    width: 69%;
+    padding: 1rem;
+    position: relative;
+    top: -11rem;
+    left: -1rem;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 23%);
+}
+.row18 p{
+    width: 80%;
+}
+
+.row19__contentleft{
+    float: none;
+    width: 98%;
+
+}
+
+
+.row19__contentright{
+    margin-top: 3rem;
+    float: none;
+    width: 100%;
+
+
+}
+
+.row20__row1 {
+    text-align: center;
+}
+
+
+.lineoffooter{
+    display: none;
+}
+.row20__row1 p {
+    width: 100%;
+    display: block;
+
+}
+
+.row20__row3 {
+    text-align: center;
+}
+.row20__inputandbutton {
+    width: 60%;
+}
+
+.row20__inputandbutton input {
+    display: block;
+    width: 90%;
+}
+
+
+
+
+  }

@@ -1,0 +1,129 @@
+.row20withbg {
+    margin: 5rem;
+    background: #252641;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+
+
+.row20__row1 {
+    width: 30%;
+}
+
+
+.row20__row1 img {
+    /* width:100%; */
+    margin-left: 1rem;
+
+    margin-right: 1rem;
+
+}
+
+.row20__row1 p {
+    width: 26%;
+    display: inline-block;
+
+    font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+.row20__row2 {
+    margin-top: 4rem;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #B2B3CF;
+}
+
+
+
+.row20__row3 {
+    /* text-align: center; */
+}
+
+.row20__inputandbutton {
+    width: 35%;
+}
+
+.row20__inputandbutton input {
+    padding: 1rem;
+    display: inline-block;
+    width: 58%;
+    border: 1px solid white;
+    border-radius: 1100px;
+    background: #252641;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row20_secondlast{
+    margin-top: 4rem;
+    text-align: center ;
+}
+
+
+.row20_secondlast span{
+    margin: 1rem;
+
+    font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #B2B3CF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+
+
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #B2B3CF;
+}

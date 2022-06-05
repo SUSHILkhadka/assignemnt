@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px) {
+    .row1__logo .letter {
+        width: 52%;
+        position: absolute;
+        top: 1vw;
+        left: 1rem;
+    }
+}

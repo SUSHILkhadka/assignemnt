@@ -1,0 +1,425 @@
+.row6{
+    margin-top: 4rem;
+    text-align: center;
+}
+.row6 h2{
+
+
+
+    font-weight: 600;
+font-size: 44px;
+line-height: 180%;
+text-align: center;
+color: #2F327D;
+}
+
+
+.row6 p{
+    width: 57%;
+
+    
+
+    font-weight: 400;
+font-size: 24px;
+line-height: 180%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #696984;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* row7 */
+
+.row7{
+    width: 67.7%;
+
+    margin-top: 4rem;
+
+}
+.row7__card{
+    width: calc(93%/2);
+    text-align: center;
+    padding-top: 4rem;
+border-radius: 20px;
+
+
+float: left;
+margin-right: 3rem;
+
+    background-image: url("../images/Rectangle\ 19.png");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.row7__card:last-child{
+    margin-right:0rem;
+}
+.row7 h2{
+    margin-top: 3rem;
+    
+    font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.row7 a{
+
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: transparent;
+
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+
+.row7 .anotherbg{
+    background-image: url("../images/Rectangle\ 21.png");
+
+}
+
+
+
+
+
+
+
+
+
+/* row8 */
+.row8{
+    margin-top: 8rem;
+    width: 80.5%;
+}
+
+.row8__imageright{
+    float: right;
+    width: 47%;
+    position: relative;
+
+}
+
+.row8__imageright img{
+width: 100%;
+}
+
+#row8__firstrect{
+    width: 20%;
+    position: absolute;
+    top: -1vw;
+    left: -1vw;
+    z-index: -1;
+}
+
+#row8_secondrect{
+    width: 20%;
+    position: absolute;
+    top: 1vw;
+    left: 83%;
+    z-index: -1;
+}
+
+
+
+.row8__contentleft{
+    float: left;
+    width: 46%;
+    padding: 2rem;
+    position: relative;
+
+    text-align: left;
+}
+
+.row8__contentleft h3{
+
+
+    font-weight: 500;
+font-size: 36px;
+line-height: 160%;
+/* or 58px */
+
+
+color: #2F327D;
+    
+}
+
+.row8__contentleft h3 span{
+    color: #F48C06;
+    
+        }
+
+.row8__contentleft p{
+    font-weight: 400;
+font-size: 24px;
+line-height: 180%;
+/* or 43px */
+
+letter-spacing: 0.02em;
+
+color: #696984;
+}
+
+.row8__contentleft a{
+    font-weight: 400;
+font-size: 22px;
+line-height: 180%;
+/* identical to box height, or 40px */
+
+text-decoration-line: underline;
+
+color: #696984;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* row 9 */
+
+    .row9{
+        text-align: center;
+    }
+    .row9 h2{
+        font-weight: 700;
+font-size: 36px;
+line-height: 180%;
+color: #2F327D;
+    }
+    .row9 p{
+        font-weight: 400;
+font-size: 24px;
+line-height: 180%;
+text-align: center;
+color: #696984;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* row10 */
+
+
+    .row10{
+        margin-top: 8rem;
+        width: 82.3%;
+    }
+
+.row10__imgleft{
+    width: 50%;
+    float: left;
+}
+.row10__imgleft img{
+    width: 100%;
+}
+
+
+    .row10__contentright{
+        float: right;
+        width: 34.3%;
+    }
+    .row10__contentright h2 span{
+        color: #F48C06;
+        
+            }
+
+
+    .row10__para{
+        margin-top: 2rem;
+
+    }
+    .row10__para img{
+        margin-top: -1rem;
+
+        float: left;
+        width: 20%;
+
+    }
+    .row10__para p{
+        /* margin-top: 2rem; */
+        float: right;
+        width: 80%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* row11 */
+
+
+
+    .row11{
+        margin-top: 8rem;
+        width: 82.3%;
+    }
+
+    .row11__imgright{
+        width: 48%;
+        float: right;
+    }
+    .row11__imgright img{
+        width: 100%;
+    }
+
+
+
+
+    .row11__contentleft{
+        width: 47%;
+        float: left;
+        text-align: left;
+    }
+
+    .row11__contentleft h3{
+        width: 50%;
+        margin-left: 0rem;
+
+        font-weight: 600;
+font-size: 40px;
+line-height: 160%;
+color: #F48C06;
+color: #55578D;
+
+    }
+
+    .row11__contentleft h3 span{
+color: #F48C06;
+
+    }
+    .row11__contentleft p{
+        width: 75%;
+        margin-left: 0rem;
+
+
+        font-weight: 400;
+font-size: 22px;
+line-height: 180%;
+letter-spacing: 0.02em;
+color: #696984;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    row12  this is exactly same is row11 just left to right ,right to left */
+
+
+
+    .row12{
+        margin-top: 12rem;
+        width: 82.3%;
+    }
+
+    .row12 .row11__imgright{
+        float: left;
+    }
+
+    .row12 .row11__contentleft{
+        float: right;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* row13 is exactly  same as row11 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

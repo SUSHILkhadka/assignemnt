@@ -1,0 +1,361 @@
+.row15{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* row16 nearly same as row 11 */
+
+.row16{
+    margin-top: 8rem;
+    width: 82.3%;
+}
+
+
+.row16 .row11__imgright{
+    float: left;
+}
+.row16 .row11__imgright img{
+    width: 33%;
+    margin: 2rem;
+}
+
+.row16 .row11__contentleft{
+    float: right;
+}
+
+.row11__contentleft a{
+    margin-top: 2rem;
+
+}
+
+
+.row16__line img{
+    margin-top: 0.5rem;
+
+    float: left;
+}
+.row16__line h4{
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    float: left;
+
+    font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0.2em;
+
+color: #525596;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* row17  left side same as row16*/
+
+
+.row17{
+    margin-top: 8rem;
+    width: 82.3%;
+}
+
+
+.row17 .row11__imgright{
+    float: left;
+    width: 40%;
+}
+
+.row17 .row11__contentleft{
+    width: 43%;
+    float: left;
+}
+
+.row17__iconbutton span{
+    float: left;
+    margin-top: 2rem;
+
+    
+
+}
+.row17__iconbutton img{
+    float: left;
+    margin-left: 1rem;
+}
+
+.row17 .row11__contentleft a{
+    padding-right: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+
+
+
+.row17__ratingcard{
+    width:92%;
+    padding: 1rem;
+
+
+position: relative;
+top: -11rem;
+    left: 10rem;
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);}
+
+
+
+    .row17__ratingcard:hover{
+
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.6   );}
+    
+.row17__ratingcard p{
+
+    font-weight: 400;
+font-size: 22px;
+line-height: 180%;
+/* or 40px */
+
+letter-spacing: 0.02em;
+
+color: #5F5F7E;
+}
+
+
+.row17__ratingcard .lastrow{
+    margin: 2rem;
+}
+.row17__ratingcard .lastrow h3{
+    float: left;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #5F5F7E
+}
+
+.row17__ratingcard .lastrow .ratingbox{
+    float: right;
+    width: 35%;
+    text-align: right;
+}
+ .ratingbox .starbox img{
+    width: 14%;
+}
+.ratingbox .starbox p{
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #80819A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* row18 */
+
+.row18{
+    margin-top: 8rem;
+    text-align: center;
+}
+.row18 h2{
+    font-weight: 700;
+font-size: 36px;
+line-height: 180%;
+color: #2F327D;
+}
+.row18 p{
+    margin-top: 2rem;
+
+
+    font-weight: 400;
+font-size: 24px;
+line-height: 180%;
+text-align: center;
+color: #696984;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* row19 */
+
+
+
+.row19{
+    margin-top: 8rem;
+    width: 82.3%;
+}
+
+.row19__contentleft{
+    float: left;
+    width: 45%;
+    border-radius: 20px;
+    padding: 0.5rem;
+
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+}
+
+
+.row19__contentleft:hover{
+    float: left;
+    width: 45%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.7);
+}
+.row19__contentleft img{
+    width: 101%;
+}
+.row19__contentleft a{
+    margin-top: 1rem;
+}
+.row19__contentleft h4{
+    margin-top: 1rem;
+    
+    
+    font-weight: 500;
+font-size: 26px;
+line-height: 180%;
+color: #252641;
+}
+.row19__contentleft p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+letter-spacing: 0.02em;
+color: #696984;
+    
+    
+}
+.readmore{
+    margin-top: 2rem;
+    
+    margin-bottom: 2rem;
+
+    font-size: 20px;
+line-height: 180%;
+/* identical to box height, or 36px */
+
+letter-spacing: 0.02em;
+text-decoration-line: underline;
+
+color: #696984;
+}
+
+
+
+
+
+
+
+
+/* right cards of row19*/
+
+.row19__contentright{
+    float: right;
+    width: 43%;
+
+
+}
+
+.row19__card{
+    margin-top: 2rem;
+
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.row19__card:hover{
+
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+.row19__rightcol1{
+    float: left;
+    width: 40%;
+    /* position: relative; */
+
+}
+
+.row19__rightcol1 img{
+    width: 100%;
+    float: left;
+
+}
+.row19__rightcol1 a{
+
+    float: right;
+
+    position: relative;
+    top: -3rem;
+    left: 0rem;
+}
+.row19__rightcol2{
+    float: left;
+    margin-left: 1rem;
+    width: 55%;
+
+}
+.row19__rightcol2 p{
+    margin-top: 1.5rem;
+
+}
+
