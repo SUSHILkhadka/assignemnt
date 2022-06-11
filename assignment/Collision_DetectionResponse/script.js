@@ -209,7 +209,7 @@ class ball {
 
 
 var ballarray = [];
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < 500; i++) {
 
     console.log(generateRandom(0, colors.length))
 
